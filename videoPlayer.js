@@ -1,4 +1,4 @@
-var VideoPlayer = {
+window.VideoPlayer = {
   void: function() {
     // Remove any existing iframes
     var iframes = document.querySelectorAll('iframe');
@@ -23,3 +23,4 @@ var VideoPlayer = {
     document.body.appendChild(iframe);
   }
 };
+
